@@ -10,7 +10,9 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.0"
   },
+  "homepage": "http://jimmymsz.github.io/iContact",
   "scripts": {
+    "deploy": "npm run build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -24,5 +26,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
